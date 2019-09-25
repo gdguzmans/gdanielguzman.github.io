@@ -5,14 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Daniel Guzman's Student Portal | CIT 230-12</title>
         <meta name="description" content="A portal with easy access to assignments of Daniel Guzman for CIT 230: Web Frontend, group 12.">
-        <link rel="stylesheet" href="style.css">
-        <script>
-            var today = new Date();
-            var year = today.getFullYear();
-            var modified = document.lastModified;
-        </script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/date.js"></script>
     </head>
-    <body>
+    <body onload="yearAndUpdate()">
     <div id="content">
         <header>
             <h1>Daniel Guzmán <img src="profile.jpg" alt="Daniel Guzman"></h1>
@@ -25,11 +22,12 @@
                 <li>Lesson 2: <a href="#">Assignment Link</a></li>
                 <li>Lesson 3: <a href="#">Assignment Link</a></li>
                 <li>Lesson 4: <a href="#">Assignment Link</a></li>
+
             </ul>
         </main>
         <footer>
-            <p>&copy;<script>document.write(year);</script> | Daniel Guzmán | Bolivia | <a href="https://www.byui.edu/online">BYU Online Learning</a><br>
-                <script>document.write("Last updated: " + modified);</script></p>
+            <p>&copy; <span id="year"></span> | Daniel Guzmán | Bolivia | <a href="https://www.byui.edu/online">BYU Online Learning</a><br>
+                Last updated: <span id="update"></span>
         </footer>
     </div>
     </body>
