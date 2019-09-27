@@ -7,10 +7,11 @@ function currentYear() {
 
 function lastUpdate(){
 	 var modified = document.lastModified;
-	 document.getElementById("update").innerHTML = modified;
+	 document.getElementById("updated").innerHTML = modified;
 }
 
 function yearAndUpdate(){
 	currentYear();
 	lastUpdate();
 }
+//
