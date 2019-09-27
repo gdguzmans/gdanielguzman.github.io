@@ -10,7 +10,7 @@ a{
 
 body {
   background-color: #eeeeee;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -26,11 +26,14 @@ img {
 
 h1 {
   padding-left: 200px;
+  font-family: 'Patua One', cursive;
 }
 
 h2 {
   padding-left: 25px;
+  font-family: 'Patua One', cursive;
 }
+
 footer {
   background-color: rgb(122, 57, 93);
   color: #ffffff;
@@ -41,4 +44,3 @@ footer {
 ul {
   padding-left: 75px;
 }
-
