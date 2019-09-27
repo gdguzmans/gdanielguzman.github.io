@@ -1,0 +1,32 @@
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a{
+  color: rgb(216, 140, 176);
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: 'Raleway', sans-serif;
+}
+
+header, footer{
+  background-color: rgb(122, 57, 93);
+  color: #ffffff;
+  padding: 2px 2px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Crete Round', serif;
+} 
+
+h2 {
+  padding-left: 25px;
+}
+
+ul {
+  padding-left: 75px;
+}
