@@ -14,4 +14,3 @@ function yearAndUpdate(){
 	currentYear();
 	lastUpdate();
 }
-//
