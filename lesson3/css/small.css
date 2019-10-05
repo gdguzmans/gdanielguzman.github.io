@@ -117,7 +117,7 @@ td {
   padding-left: 10px;
 }
 
-#left-td {
+.left-td {
   width: 35%;
   background-color: rgb(122, 57, 93);
   color: #ffffff;
@@ -126,7 +126,7 @@ td {
   vertical-align: text-top;
 }
 
-#right-td {
+.right-td {
   background-color:rgb(216, 140, 176);
   color: black;
   padding-left: 15px;
