@@ -48,19 +48,12 @@ h1, h2, h3, h4 {
 }
 
 .headings h1 {
-    text-align: center;
-    padding-top: 30px;
-    color: var(--blue);
     font-size: 3rem;
 }
 
 .headings p {
-    text-align: center;
     font-size: 1.25rem;
-    font-weight: bold;
     margin-top: -40px;
-    padding-bottom: 10px;
-    color: var(--blue);
 } 
 
 h2 {
@@ -68,9 +61,7 @@ h2 {
 }
 
 .town-name {
-    text-align: center;
     letter-spacing: 2rem;
-    color: var(--orange);
 }
 
 
@@ -83,10 +74,6 @@ h2 {
 
 footer {
     background: linear-gradient(90deg, rgba(187,222,240,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(187,222,240,1) 100%);
-    text-align: center;
-    padding: 5px 10px;
-    color: var(--blue);
-    border-top: 3px solid var(--yellow);
 }
 
 }

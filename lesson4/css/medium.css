@@ -16,36 +16,20 @@
     }
     
     header img {
-        position: relative;
         width: 120px;
-        left: 10%;
-        float: left;
     }
     
     h1, h2, h3, h4 {
         font-family:'Atma', cursive;
     }
     
-    .headings {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: 0%;        
-        margin-left: 25px;
-    }
-    
     .headings h1 {
         font-size: 2.5rem;
-        padding-top: 40px;
     }
     
     .headings p {
-        text-align: center;
         font-size: 1rem;
-        font-weight: bold;
         margin-top: -30px;
-        padding-bottom: 10px;
-        color: var(--blue);
     } 
 
     .navigation {
