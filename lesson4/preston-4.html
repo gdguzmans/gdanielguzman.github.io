@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston, Idaho | Weather</title>
+        
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Atma|Raleway&display=swap" rel="stylesheet">
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body onload="yearAndUpdate()">
+    <header>
+        <picture><img src="images/logo.svg"></picture>
+        <section class="headings">
+                <h1>Weathers Watch</h1>
+                <p>The Best Way to Know What is Coming</p>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="current"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="town-name">PRESTON</h2>
+    
+        <div class="section">Hero w/ weather summary</div>
+        <div class="section">5 Day Forecast</div>
+        <div class="section">Article</div>
+        <div class="section">Contact Information</div>
+        <br>
+       
+    </main>
+    
+    <footer>
+            <p>&copy; <span id="year"></span> | Weathers.Watch | Daniel Guzmán <br>
+                Last updated: <span id="updated"></span>
+        </footer>
+</body>
+</html>
