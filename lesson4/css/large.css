@@ -1,14 +1,6 @@
 @media only screen and (min-width: 60em) {
 /* Color Scheme*/
 
-:root {
-    --lblue: #BBDEF0;
-    --blue: #00A6A6;
-    --yellow: #EFCA08;
-    --lorange: #FFDDAA;
-    --orange: #F08700;
-}
-
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -66,7 +58,7 @@ h2 {
 
 
 .section {
-    background-color: var(--lorange);
+    background-color: #FFDDAA;
     margin: 10px 30px;
     padding: 25px;
     border: 2px dashed white;

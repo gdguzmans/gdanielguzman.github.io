@@ -1,14 +1,7 @@
 @media only screen and (min-width: 32.5em) {
     /* Color Scheme*/
     
-    :root {
-        --lblue: #BBDEF0;
-        --blue: #00A6A6;
-        --yellow: #EFCA08;
-        --lorange: #FFDDAA;
-        --orange: #F08700;
-    }
-       
+    
     header {
         display: flex;
         align-items: center;
