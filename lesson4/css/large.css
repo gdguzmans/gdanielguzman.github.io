@@ -4,8 +4,10 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-
-header, nav, main, footer {
+header, nav {
+    width: 100%;
+}
+main, footer {
     width: 780px;
     margin: 0 auto;
 }
