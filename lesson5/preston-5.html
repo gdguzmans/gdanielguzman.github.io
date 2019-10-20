@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston, Idaho | Weather</title>
+        
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Atma&7cRaleway&display=swap" rel="stylesheet">
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body onload="yearAndUpdate()">
+    <div class="banner">
+        <p><b>Saturday = Preston Pancakes in the Park!</b> &nbsp; 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    
+    <header>
+        <picture><img src="images/logo.svg" alt="logo of Weathers Watch"></picture>
+        <section class="headings">
+                <h1>Weathers Watch</h1>
+                <p>The Best Way to Know What is Coming</p>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="current"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="town-name">PRESTON</h2>
+    
+        <div class="container hero"><img src="images/natural-mirror.jpg" alt="mountains and a lake" width="100%">
+            <div class="details">
+                <h3>Weather Summary</h3>
+                <hr>
+                <div>
+                    <span class="left">Currently:</span>
+                    <span class="right">Sunny</span> <br>
+                    <span class="left">High:</span>
+                    <span class="right">71ºF</span> <br>
+                    <span class="left">Wind Chill:</span>
+                    <span class="right">3ºF</span> <br>
+                    <span class="left">Humidity:</span>
+                    <span class="right">41%</span> <br>
+                    <span class="left">Wind Speed:</span>
+                    <span class="right">4mph</span> <br>
+                </div>
+                </p>
+            </div>
+        </div>
+        <div class="container forecast">
+            <h3>5 Day Forecast</h3>
+            <div class="forecastTable"><table>
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td><img src="images/sunny-icon.jpg" width="50px" height="auto"> <br> 89ºF</td>
+                    <td><img src="images/sunny-icon.jpg" width="50px" height="auto"> <br> 86ºF</td>
+                    <td><img src="images/sunny-icon.jpg" width="50px" height="auto"> <br> 81ºF</td>
+                    <td><img src="images/sunny-icon.jpg" width="50px" height="auto"> <br> 79ºF</td>
+                    <td><img src="images/sunny-icon.jpg" width="50px" height="auto"> <br> 75ºF</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <div class="container article">
+            <img src="images/couple-walking.jpg" alt="couple walking">
+            <h3>The Best Summer</h3>
+            <p class="author">By Ronald Levitt</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed corporis, iure ipsum distinctio suscipit laborum veniam vel atque nisi, rem aliquam, consectetur inventore quidem? Tenetur libero optio quidem cupiditate exercitationem.</p>
+            <p>Quod eos corporis, et, quaerat fuga ex a voluptatem mollitia quidem earum aperiam sed inventore consequuntur. Enim totam deleniti explicabo reiciendis natus.</p>
+            <p>Natus iure amet voluptatibus laudantium ratione inventore reiciendis quod officiis quo nisi quos culpa nemo, deleniti ex, dolore aut repellendus facere illo!</p>
+            <p><a href="#">Read more</a></p>
+        </div>
+        <div class="container contact">
+            <div class="contact-map">
+                <img src="images/map.jpg" alt="Southeastern Idaho map">
+            </div>
+            
+            <div class="contact-info">
+                <h3>Weathers Watch</h3>
+                <ul>
+                    <li><img src="images/place.png" width="20px" alt="place icon"> 13 West Oneida</li>
+                    <li>Preston, ID 83263</li><br>
+                    <li><img src="images/phone.png" width="20px" alt="call icon"> (208)852-1817</li>
+                    <li><img src="images/mail.png" width="20px" alt="mail icon"> info@weathers.watch</li><br>
+                    <li><a href="#"><img src="images/facebook.png" width="25px" alt="facebook icon"></a>
+                        <a href="#"><img src="images/twitter.png" width="25px" alt="twitter icon"></a>
+                        <a href="#"><img src="images/instagram.png" width="25px" alt="instagram icon"></a>
+                        <a href="#"><img src="images/google-plus.png" width="25px" alt="google plus icon"></a></li>
+                </ul>
+            </div>
+        
+
+        </div>
+        <br>
+       
+    </main>
+    
+    <footer>
+            <p>&copy; <span id="year"></span> | Weathers.Watch | Daniel Guzmán <br>
+                <span id="updated"></span>
+        </footer>
+</body>
+</html>
