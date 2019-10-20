@@ -138,7 +138,11 @@ nav {
     padding: 0;
     position: relative;
     min-height: 200px;
-    }
+}
+
+.hero img {
+        width: 100%;
+}
 
     
 .details {
