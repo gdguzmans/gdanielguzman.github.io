@@ -9,7 +9,7 @@ function lastUpdate(){
 	 var day = day.lastModified;
 	 document.getElementById("updated").innerHTML = day;*/
 
-	var update = new Date(document.lastModified)
+	var update = new Date();
 	var theMonth = update.getMonth();
 	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	var theDate = update.getDate();
