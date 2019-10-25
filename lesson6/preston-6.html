@@ -45,11 +45,13 @@
     
         <div class="container hero">
           
-                <img src="hero-image-default.jpg" alt="hero image" sizes="100vw"
-
-                srcset="images/hero-image-sm.jpg 580w,
-                images/hero-image-md.jpg 720w,
-                images/hero-image-lg.jpg 980w">
+            <picture>
+                <source srcset="images/hero-image-sm.jpg" media="(max-width: 32.5em)">
+                <source srcset="images/hero-image-md.jpg" media="(max-width: 60em)">
+                <source srcset="images/hero-image-lg.jpg" media="(min-width: 60em)">  
+                    <img src="hero-image-default.jpg" alt="hero image"> 
+            </picture>
+               
 
             <div class="details">
                 <h3>Weather Summary</h3>
