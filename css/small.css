@@ -30,3 +30,7 @@ h2 {
 ul {
   padding-left: 75px;
 }
+
+.clearfix {
+  clear: both;
+}
