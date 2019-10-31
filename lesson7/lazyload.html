@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lazy Loading Images</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lazyload.js" defer></script>
+</head>
+<body>
+    <h1>Progressive Loading of Images</h1>
+    <div class="image-container">
+        <img src="images/placeholder.jpg" data-src="images/image1.jpg" alt="Background image">
+        <img src="images/placeholder.jpg" data-src="images/image2.jpg" alt="Background image">
+        <img src="images/placeholder.jpg" data-src="images/image3.jpg" alt="Background image">
+        <img src="images/placeholder.jpg" data-src="images/image4.jpg" alt="Background image">
+        <img src="images/placeholder.jpg" data-src="images/image5.jpg" alt="Background image">
+        <img src="images/placeholder.jpg" data-src="images/image6.jpg" alt="Background image">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <script>
+        WebFont.load({google: {families: ['Merriweather']}});
+      </script>
+</body>
+</html>
