@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston, Idaho | Weather</title>
+    
+        <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/lazyload.js" defer></script>
+</head>
+<body onload="yearAndUpdate()" >
+    <div class="banner">
+        <p><b>Saturday = Preston Pancakes in the Park!</b> &nbsp; 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    
+    <header>
+        <picture><img src="images/logo.svg" alt="logo of Weathers Watch"></picture>
+        <section class="headings">
+                <h1>Weathers Watch</h1>
+                <p>The Best Way to Know What is Coming</p>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-7.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="current"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <main>
+            <h2 class="town-name">PRESTON</h2>
+    
+            <div class="gallery">
+                <div class="img-container">
+                    <figure><img src="images/image-weather-placeholder.jpg" alt="weather gallery Preston Idaho" data-src="images/image-weather-1.jpg"><figcaption>Rains</figcaption></figure>
+                </div>
+                <div class="img-container">
+                    <figure><img src="images/image-weather-placeholder.jpg" alt="weather gallery Preston Idaho" data-src="images/image-weather-2.jpg"><figcaption>Windy Storms</figcaption></figure>
+                </div>
+                <div class="img-container">
+                    <figure><img src="images/image-weather-placeholder.jpg" alt="weather gallery Preston Idaho" data-src="images/image-weather-3.jpg"><figcaption>Electric Storms</figcaption></figure>
+                </div>
+                <div class="img-container">
+                    <figure><img src="images/image-weather-placeholder.jpg" alt="weather gallery Preston Idaho" data-src="images/image-weather-4.jpg"><figcaption>Spring</figcaption></figure>
+                </div>
+                <div class="img-container">
+                    <figure><img src="images/image-weather-placeholder.jpg" alt="weather gallery Preston Idaho" data-src="images/image-weather-5.jpg"><figcaption>Snow Storm</figcaption></figure>
+                </div>
+                <div class="img-container">
+                    <figure><img src="images/image-weather-placeholder.jpg" alt="weather gallery Preston Idaho" data-src="images/image-weather-6.jpg"><figcaption>Snowing</figcaption></figure>
+                </div>
+                <div class="img-container">
+                    <figure><img src="images/image-weather-placeholder.jpg" alt="weather gallery Preston Idaho" data-src="images/image-weather-7.jpg"><figcaption>Finishing Fall</figcaption></figure>
+                </div>
+                <div class="img-container">
+                    <figure><img src="images/image-weather-placeholder.jpg" alt="weather gallery Preston Idaho" data-src="images/image-weather-8.jpg"><figcaption>Rainbow</figcaption></figure>
+                </div>
+                <div class="img-container">
+                    <figure><img src="images/image-weather-placeholder.jpg" alt="weather gallery Preston Idaho" data-src="images/image-weather-9.jpg"><figcaption>Frozen Lake</figcaption></figure>
+                </div>
+                
+                
+            </div>
+            <div class="clearfix"><br></div>
+           
+        </main>
+    
+    <footer>
+            <p>&copy; <span id="year"></span> | Weathers.Watch | Daniel Guzmán <br>
+                <span id="updated"></span>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <script>
+        WebFont.load({google: {families: ['Atma', 'Raleway']}});
+    </script>
+
+</body>
+</html>
