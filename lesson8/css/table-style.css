@@ -32,12 +32,12 @@ thead {
 }
 
 tbody {
-    background-color: #e7f0ed;
+    background-color: #e4ffed;
     border: 1px solid #628ca6;
 }
 
 tbody tr:nth-child(odd) td {
-    background-color: #e4ffed;
+    background-color: #e7f0ed;
 }
 
 th{
