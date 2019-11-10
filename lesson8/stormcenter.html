@@ -58,15 +58,15 @@
                     <input type="number" name="zip" id="zip" required><br><br>
                     <label for="date">Storm Date:</label><br>
                     <input type="date" name="date" id="date"><br><br>
-                    <label for="type">Storm Type:</label><br>
-                    <input list="type">
-                        <datalist name="type" id="type">
+                    <label for="type">Storm Type:<br>
+                    <input list="event">
+                        <datalist name="event" id="event">
                             <option value="Flash Flood">Flash Flood</option>
                             <option value="Hail">Hail</option>
                             <option value="Hurricane">Hurricane</option>
                             <option value="Thunderstorm">Thunderstorm</option>
                             <option value="Tornado">Tornado</option>
-                        </datalist><br><br>
+                        </datalist></label><br><br>
                         <label class="flexly" for="severity">Rating: &nbsp;&nbsp;&nbsp;
                                 <input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
                                         <span id="ratingvalue">5</span>
@@ -91,10 +91,10 @@
                         <option value="Soda Sprngs">Soda Springs</option>
                         <option value="Fish Haven">Fish Haven</option>
                     </select><br><br>
-                    <label for="danger">User In-Danger Level:</label><br><br>
+                    <label for="danger">User In-Danger Level:<br><br>
                     <input type="radio" name="danger" id="danger-y" value="yes" class="radio">Yes <br>
                     <input type="radio" name="danger" id="danger-m" value="no" class="radio">Maybe <br>
-                    <input type="radio" name="danger" id="danger-n" value="maybe" class="radio">No <br><br>
+                    <input type="radio" name="danger" id="danger-n" value="maybe" class="radio">No </label><br><br>
                     <label for="comment">Adicional Information and Comments:</label><br>
                     <textarea name="comment" id="comment" placeholder="Your comments..." rows="6" cols="50"></textarea><br>
                     <input type="submit" value="Submit" id="submit">
