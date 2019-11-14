@@ -23,6 +23,8 @@ p {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
+    box-shadow: 0 0 8px 2px #cccccc;
+    padding: 10px;
 }
 
 section {
@@ -34,6 +36,11 @@ background-color: white;
 img {
     max-width: 60%;
     margin-bottom: 15px;
+    box-shadow: 0 0 8px 2px gray;
+}
+
+footer {
+    margin: 25px;
 }
 
 @media only screen and (min-width: 32.5em) {
